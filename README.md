@@ -19,16 +19,16 @@ The rise of AI-generated images, particularly those produced by **Generative Adv
 Our **CNN architecture** efficiently classifies real and AI-generated faces using multiple convolutional and pooling layers for robust feature extraction.
 
 ### 🔧 Model Summary:
-- **Input Shape**: (256, 256, 3) RGB images
-- **Conv2D Layers**: Extracts spatial features from images
-- **MaxPooling2D Layers**: Reduces dimensionality and retains essential features
-- **Flatten Layer**: Converts feature maps into a 1D vector
-- **Dense Layers**: Processes high-level features for final classification
-- **Activation Functions**:
-  -- **ReLU**: Used in convolutional layers to introduce non-linearity
-  -- **Sigmoid**: Used in the output layer for binary classification
-- **Loss Function**: Binary Crossentropy
-- **Optimizer**: Adam
+- **Input Shape**: (256, 256, 3) RGB images  
+- **Conv2D Layers**: Extract spatial features from images  
+- **MaxPooling2D Layers**: Reduce dimensionality and retain essential features  
+- **Flatten Layer**: Converts feature maps into a 1D vector  
+- **Dense Layers**: Process high-level features for final classification  
+- **Activation Functions**:  
+  - **ReLU** → Used in convolutional layers to introduce non-linearity  
+  - **Sigmoid** → Used in the output layer for binary classification  
+- **Loss Function**: Binary Crossentropy  
+- **Optimizer**: Adam 
 
 ## 🛠️ Installation
 
