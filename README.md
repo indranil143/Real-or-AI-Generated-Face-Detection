@@ -53,10 +53,11 @@ To classify an image:
 - **Run the Classifier**: Use the provided script or notebook to input your image and receive the classification result.​
 
 ## Results
+Here’s an example output from the model:
+![Example Result](https://github.com/indranil143/Real-vs.-AI-Generated-Face-Classification-using-Deep-Learning/blob/main/Screenshot_example_result.jpeg)
+
 The trained model demonstrates **high accuracy** in distinguishing between real and AI-generated face images. 
 Although, to ensure **generalization**, testing on unseen data and applying **regularization techniques** like dropout and data augmentation are recommended.
-Here’s an example output from the model:
 
-![Example Result](https://github.com/indranil143/Real-vs.-AI-Generated-Face-Classification-using-Deep-Learning/blob/main/Screenshot_example_result.jpeg)
 ## License
 This project is licensed under the **MIT License**. See the LICENSE file for more information.
