@@ -5,40 +5,50 @@
 AI-generated images are now trending or can say everywhere, and spotting them before you get catfished is more important than ever!! 🎭 
 Well, this deep learning project harnesses the power of Convolutional Neural Networks (CNNs) to separate authentic human faces from AI-generated illusions with razor-sharp accuracy.
 
-## Table of Contents
-Introduction
-Features
-Dataset
-Model Architecture
-Installation
-Usage
-Results
-Contributing
-License
-Introduction
-The rise of AI-generated images, particularly those produced by Generative Adversarial Networks (GANs) like StyleGAN, has blurred the lines between reality and fabrication. These synthetic images are often indistinguishable from real photographs, posing challenges in areas such as digital security, misinformation, and privacy. This project addresses these challenges by developing a CNN-based classifier capable of differentiating between real and AI-generated face images.​
+## 📖 Table of Contents
 
-Features
-High Accuracy: Achieves a high level of precision in distinguishing real faces from AI-generated ones.​
-Robust Dataset: Trained on a diverse dataset comprising thousands of images to ensure reliability.​
-User-Friendly Interface: Provides an intuitive interface for users to input images and receive instant classification results.​
-Dataset
-The model is trained on a comprehensive dataset that includes:​
+- [Introduction](#-introduction)
+- [Features](#-features)
+- [Dataset](#-dataset)
+- [Model Architecture](#-model-architecture)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Results](#-results)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-Real Images: Sourced from publicly available facial datasets capturing diverse demographics.​
-AI-Generated Images: Produced using advanced GAN architectures to represent various styles and qualities.​
-This diverse dataset ensures the model learns to identify subtle differences between real and synthetic images, enhancing its generalization capabilities.​
+## 🧐 Introduction
 
-Model Architecture
-The classifier utilizes a Convolutional Neural Network (CNN) architecture, renowned for its efficacy in image recognition tasks. The network consists of multiple convolutional layers for feature extraction, followed by fully connected layers for classification. Techniques such as batch normalization and dropout are incorporated to improve training stability and prevent overfitting.​
+:contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
 
-Installation
+## ✨ Features
+
+- **High Accuracy**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+- **Robust Dataset**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
+- **User-Friendly Interface**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
+
+## 🗂️ Dataset
+
+:contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
+
+- **Real Images**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+- **AI-Generated Images**: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
+
+:contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
+
+## 🏗️ Model Architecture
+
+:contentReference[oaicite:19]{index=19} :contentReference[oaicite:20]{index=20} :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
+
+## 🛠️ Installation
+
 To set up the project locally:
 
-Clone the Repository:
-bash
-Copy
-Edit
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/indranil143/Real-vs.-AI-Generated-Face-Classification-using-Deep-Learning.git
+
+
 git clone https://github.com/indranil143/Real-vs.-AI-Generated-Face-Classification-using-Deep-Learning.git
 2. Navigate to the Directory:
 
