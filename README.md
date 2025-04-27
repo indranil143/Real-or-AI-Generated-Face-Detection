@@ -1,4 +1,4 @@
-# Real vs. AI-Generated Face Classification using Deep Learning 🤖👤
+# Real or AI-Generated Face Detection using Deep Learning 🤖👤
 
 ## 📌 Project Overview
 
@@ -36,11 +36,11 @@ To set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/indranil143/Real-vs.-AI-Generated-Face-Classification-using-Deep-Learning.git
+   git clone https://github.com/indranil143/Real-or-AI-Generated-Face-Detection.git
 
 2. **Navigate to the Directory**:
    ```bash
-   cd Real-vs.-AI-Generated-Face-Classification-using-Deep-Learning
+   cd Real-or-AI-Generated-Face-Detection
 
 3. **Install Dependencies**:
    ```bash
