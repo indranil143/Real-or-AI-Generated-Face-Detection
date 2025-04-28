@@ -1,4 +1,4 @@
-# Real or AI-Generated Face Detection using Deep Learning 🤖👤
+# DL-based Real or AI-Generated Face Detection 🤖👤
 
 ## 📌 Project Overview
 
