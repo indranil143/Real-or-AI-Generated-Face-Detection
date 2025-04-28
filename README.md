@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-AI-generated images are everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭 
-Well, this deep learning project uses **Convolutional Neural Networks (CNNs)** to accurately classify images as real human faces or AI-generated ones. By using deep learning techniques, this model enhances our ability to identify synthetic images and mitigate digital deception.
-The rise of AI-generated images, particularly those produced by **Generative Adversarial Networks (GANs)** like **StyleGAN**, has blurred the lines between reality and fabrication. These synthetic images are often indistinguishable from real photographs, posing challenges in areas such as **digital security**, **misinformation**, and **privacy**. This CNN-based classifier tackles this challenge by distinguishing real and AI-generated face images.
+AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭 
+Well, this deep learning project uses **Convolutional Neural Networks (CNNs)** to accurately classify images as real human faces or AI-generated ones (although depends on the input image data). By using deep learning techniques, this model enhances our ability to identify synthetic images and mitigate digital deception.
+The rise of AI-generated images, particularly those produced by **Generative Adversarial Networks (GANs)** like **StyleGAN**, has blurred the lines between reality and fabrication. These synthetic images are often indistinguishable from real photographs, posing challenges in areas such as **digital security**, **misinformation**, and **privacy**. This CNN-based classifier can tackle this challenge (with some future improvements).
 
 
 ## 🗂️ Dataset
