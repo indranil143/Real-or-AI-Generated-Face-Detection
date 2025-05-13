@@ -1,4 +1,5 @@
-# Deepfake Face Detection using Deep Learning 🤖👤
+# Real-or-AI-Generated-Face-Detection 
+## (Deepfake Face Detection using Deep Learning) 🤖👤
 
 ## 📌 Project Overview
 
