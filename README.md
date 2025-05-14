@@ -106,14 +106,14 @@ Visualizations provide further insight into the model's performance. Include the
 Showcase the model's prediction capability on a few sample images. You can use examples from your test runs.
 
 * **Example 1:**
-    * **Image:** [https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png]
+    * **Image:** ![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png)
     * **Filename:** `0M0F4YJ1G9.jpg`
     * **Prediction:** Fake
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
 * **Example 2:**
-    * **Image:** [https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png]
+    * **Image:** !![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png)
     * **Filename:** `00292.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
