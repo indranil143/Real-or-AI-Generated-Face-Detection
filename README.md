@@ -100,7 +100,7 @@ The model was trained using the defined K-Fold cross-validation strategy on the 
 Visualizations provide further insight into the model's performance. Include the generated plots here:
 
 * **Overall Confusion Matrix:** Shows the counts of True Positives, True Negatives, False Positives, and False Negatives based on pooled predictions.
-    <p>
+    <p align="center">
     <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="500"/>
     </p>
 
