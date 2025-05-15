@@ -100,7 +100,7 @@ The model was trained using the defined K-Fold cross-validation strategy on the 
 Visualizations provide further insight into the model's performance. Include the generated plots here:
 
 * **Overall Confusion Matrix:** Shows the counts of True Positives, True Negatives, False Positives, and False Negatives based on pooled predictions.
-    <p align="center">
+    <p>
     <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="500"/>
     </p>
 
@@ -113,13 +113,21 @@ Visualizations provide further insight into the model's performance. Include the
 
 Showcase the model's prediction capability on a few sample images. You can use examples from your test runs.
 
-* **Example 1:** ![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png)
+* **Example 1:**
+    * **Example 1:**
+    <p align="center">
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction"/>
+    </p>
     * **Filename:** `0M0F4YJ1G9.jpg`
     * **Prediction:** Fake
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
-* **Example 2:** ![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png)
+* **Example 2:**
+    * **Example 2:**
+    <p align="center">
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction"/>
+    </p>
     * **Filename:** `00292.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
@@ -176,9 +184,7 @@ Although, to ensure **generalization**, testing on unseen data and applying **re
 To set up the projects locally:
 
 1.  **Install Dependencies**: Ensure you have Python installed and install the required libraries (TensorFlow, NumPy, Matplotlib, Seaborn, Scikit-learn, OpenCV, potentially `python-magic`).
-    ```bash
-    pip install -r requirements.txt
-    ```
+
 2.  **Prepare Datasets**:
     * Obtain the RVF10K dataset and place it where accessible, updating the relevant path in `Deepfake-Face-Detection-with-Xception.ipynb`.
     * Obtain the dataset for the custom CNN or you can make it on your own and place it in an `imagedata` directory or update the relevant path in `Real vs. AI-Generated Face Classification model.ipynb`.
