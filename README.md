@@ -101,27 +101,25 @@ Visualizations provide further insight into the model's performance. Include the
 
 * **Overall Confusion Matrix:** Shows the counts of True Positives, True Negatives, False Positives, and False Negatives based on pooled predictions.
     <p align="center">
-    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="400"/>
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="500"/>
     </p>
 
 * **Overall ROC Curve:** Illustrates the model's ability to discriminate between classes across different thresholds.
     <p align="center">
-    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall Confusion Matrix" width="400"/>
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall Confusion Matrix" width="700"/>
     </p>
 
 **Prediction Examples:**
 
 Showcase the model's prediction capability on a few sample images. You can use examples from your test runs.
 
-* **Example 1:**
-![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png)
+* **Example 1:** ![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png)
     * **Filename:** `0M0F4YJ1G9.jpg`
     * **Prediction:** Fake
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
-* **Example 2:**
-![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png)
+* **Example 2:** ![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png)
     * **Filename:** `00292.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
