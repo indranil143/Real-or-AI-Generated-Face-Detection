@@ -76,44 +76,52 @@ This project trains and evaluates the main model on the **RVF10K dataset**.
 The model was trained using the defined K-Fold cross-validation strategy on the RVF10K dataset. Below is the summary of the evaluation metrics obtained from the notebook output:
 
 **K-Fold Cross-Validation Summary:**
-Average Accuracy:     0.7840 ± 0.0102
-Average Precision:    0.0000 ± 0.0000
-Average Recall:       0.0000 ± 0.0000
-Average F1-Score:     0.0000 ± 0.0000
-Average AUC:          0.8609 ± 0.0106
+
+| Metric            | Value           |
+|-------------------|-----------------|
+| Average Accuracy  | 0.7840 ± 0.0102 |
+| Average Precision | 0.0000 ± 0.0000 |
+| Average Recall    | 0.0000 ± 0.0000 |
+| Average F1-Score  | 0.0000 ± 0.0000 |
+| Average AUC       | 0.8609 ± 0.0106 |
 
 **Overall Metrics (Pooled Predictions Across All Folds):**
-              precision    recall  f1-score   support
-         0.0       0.79      0.77      0.78      3500
-         1.0       0.77      0.80      0.79      3500
-    accuracy                           0.78      7000
-   macro avg       0.78      0.78      0.78      7000
-weighted avg       0.78      0.78      0.78      7000
+
+| Metric       | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| 0.0 (Real)   | 0.79      | 0.77   | 0.78     | 3500    |
+| 1.0 (Fake)   | 0.77      | 0.80   | 0.79     | 3500    |
+| **Accuracy** |           |        | **0.78** | 7000    |
+| Macro Avg    | 0.78      | 0.78   | 0.78     | 7000    |
+| Weighted Avg | 0.78      | 0.78   | 0.78     | 7000    |
 
 **Evaluation Plots:**
 
 Visualizations provide further insight into the model's performance. Include the generated plots here:
 
 * **Overall Confusion Matrix:** Shows the counts of True Positives, True Negatives, False Positives, and False Negatives based on pooled predictions.
-    ![Overall Confusion Matrix](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png)
+    <p align="center">
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="400"/>
+    </p>
 
 * **Overall ROC Curve:** Illustrates the model's ability to discriminate between classes across different thresholds.
-    ![Overall ROC Curve](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png)
-
+    <p align="center">
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall Confusion Matrix" width="400"/>
+    </p>
 
 **Prediction Examples:**
 
 Showcase the model's prediction capability on a few sample images. You can use examples from your test runs.
 
 * **Example 1:**
-    * **Image:** ![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png)
+![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png)
     * **Filename:** `0M0F4YJ1G9.jpg`
     * **Prediction:** Fake
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
 * **Example 2:**
-    * **Image:** !![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png)
+![example1](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png)
     * **Filename:** `00292.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
@@ -125,11 +133,11 @@ Showcase the model's prediction capability on a few sample images. You can use e
 
 This section details an earlier project exploring a custom-built Convolutional Neural Network (CNN) for the same real vs. AI-generated face classification task. This serves as a comparison to the more advanced transfer learning approach with Xception. The implementation for this approach is found in the notebook `Real vs. AI-Generated Face Classification model.ipynb`.
 
-## Approach
+### Approach
 
-The project's core is a custom Convolutional Neural Network architecture designed for binary image classification.
+This project's core is a custom Convolutional Neural Network architecture designed for binary image classification.
 
-## 🏗️ Model
+### Model
 
 The model utilizes a standard CNN architecture for efficient feature extraction and classification of real and AI-generated faces.
 
@@ -145,7 +153,7 @@ The model utilizes a standard CNN architecture for efficient feature extraction 
 * **Loss Function**: **Binary Crossentropy** is used as the loss function, which is standard for binary classification problems. It measures the difference between the predicted probabilities and the true labels.
 * **Optimizer**: The **Adam optimizer** is used to update the model's weights during training, known for its efficiency and effectiveness.
 
-## Dataset
+### Dataset
 
 The project utilizes a dataset specifically collected for this classification task.
 
@@ -154,7 +162,7 @@ The project utilizes a dataset specifically collected for this classification ta
 
 💡You can also create your own dataset by collecting images manually. One way is to use the "**Download All Images**" extension in your browser to scrape images from Google’s image search and curate a customized dataset for better model adaptability.
 
-## Results
+### Results
 
 Here’s an example output from this model:
 
@@ -190,8 +198,9 @@ To set up the projects locally:
 
 ## ⚖️ License
 
-[Specify the license under which you are sharing your code. A common choice is the MIT License.]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👋 Acknowledgements
-* The creators and maintainers of the RVF10K dataset.
-* The TensorFlow, Keras, and other open-source library development teams.
+Feel free to contribute to this project by opening issues or submitting pull requests!!
+
+---
+© 2025 indranil143
