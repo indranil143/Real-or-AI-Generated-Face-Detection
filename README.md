@@ -80,9 +80,6 @@ The model was trained using the defined K-Fold cross-validation strategy on the 
 | Metric            | Value           |
 |-------------------|-----------------|
 | Average Accuracy  | 0.7840 ± 0.0102 |
-| Average Precision | 0.0000 ± 0.0000 |
-| Average Recall    | 0.0000 ± 0.0000 |
-| Average F1-Score  | 0.0000 ± 0.0000 |
 | Average AUC       | 0.8609 ± 0.0106 |
 
 **Overall Metrics (Pooled Predictions Across All Folds):**
