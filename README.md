@@ -2,14 +2,14 @@
 ## (Real-or-AI-Generated-Face-Detection) 
 
 ## 📌Project Overview
-AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭 
+AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭   
 This repository showcases approaches to classifying facial images as either real or AI-generated (deepfake). The primary focus is on a robust deep learning model utilizing transfer learning with the powerful Xception network and K-Fold cross-validation. An alternative approach using a custom Convolutional Neural Network is also documented.
 
 In the era of increasingly realistic synthetic media, being able to accurately identify AI-generated content is becoming vital for combating misinformation and maintaining digital trust. This project aims to contribute to this effort by providing model implementations for this task.
 
-## ⚠️ Problem Statement
+## 👤 Problem Statement
 
-The rapid advancement in generative adversarial networks (GANs) and other deep learning techniques has made it increasingly difficult to discern authentic facial images from synthetic ones. Malicious use of deepfakes poses significant threats, including the spread of disinformation, reputational damage, and erosion of trust in digital media. This project explores different deep learning models to help identify AI-generated face images.
+The rapid advancement in generative adversarial networks (GANs), Flickr and other deep learning techniques has made it increasingly difficult to discern authentic facial images from synthetic ones. Malicious use of deepfakes poses significant threats, including the spread of disinformation, reputational damage, and erosion of trust in digital media. This project explores different deep learning models to help identify AI-generated face images.
 
 ## 🚀 Main Approach: Xception-based Transfer Learning with K-Fold CV
 
@@ -110,7 +110,6 @@ Visualizations provide further insight into the model's performance. Include the
     </p>
 
 **Prediction Examples:**
-
 Showcase the model's prediction capability on a few sample images. You can use examples from your test runs.
 
 * **Example 1:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction"/></p>
@@ -158,7 +157,7 @@ The project utilizes a dataset specifically collected for this classification ta
 * **Real Images**: Collected from publicly available facial datasets representing diverse demographics.
 * **AI-Generated Images**: Sourced from GAN-based generators producing highly realistic synthetic faces.
 
-💡You can also create your own dataset by collecting images manually. One way is to use the "**Download All Images**" extension in your browser to scrape images from Google’s image search and curate a customized dataset for better model adaptability.
+💡 You can also create your own dataset by collecting images manually. One way is to use the "**Download All Images**" extension in your browser to scrape images from Google’s image search.
 
 ### Results
 
@@ -185,7 +184,6 @@ To set up the projects locally:
 
 ## ✨ Future Improvements
 
-* **Comprehensive Comparison:** Perform a direct, controlled comparison of both models on the same test set to quantify the performance difference.
 * **Dataset Expansion:** Train both models on larger and more diverse datasets.
 * **Hyperparameter Tuning:** Optimize hyperparameters for both model architectures.
 * **Explore Other Architectures:** Investigate other cutting-edge CNNs, Vision Transformers, or specialized deepfake detection methods.
