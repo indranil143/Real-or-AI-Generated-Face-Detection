@@ -66,6 +66,7 @@ The model was trained using the defined K-Fold cross-validation strategy on the 
 | Weighted Avg | 0.78      | 0.78   | 0.78     | 7000    |
 
 </div>
+
 **Evaluation Plots:**
 
 Visualizations provide further insight into the model's performance. Include the generated plots here:
@@ -160,7 +161,9 @@ To set up the projects locally:
 * **Explore Other Architectures:** Investigate other cutting-edge CNNs, Vision Transformers, or specialized deepfake detection methods.
 * **Anomaly Detection Techniques:** Explore treating deepfake detection as an anomaly detection problem.
 * **Deployment:** Develop a user-friendly interface for prediction.
+
 Feel free to contribute to this project by opening issues or submitting pull requests!!
+
 ## ⚖️ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
