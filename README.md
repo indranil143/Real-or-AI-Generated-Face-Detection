@@ -89,7 +89,7 @@ Showcase the model's prediction capability on a few sample images. You can use e
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
-* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction"/> </p>
+* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction" width="1300"/> </p>
     * **Filename:** `00292.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
