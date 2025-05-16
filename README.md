@@ -82,7 +82,6 @@ Visualizations provide further insight into the model's performance. Include the
     </p>
 
 **Prediction Examples:**
-Showcase the model's prediction capability on a few sample images. You can use examples from your test runs.
 
 * **Example 1:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" width="1200"/></p>
     * **Filename:** `0M0F4YJ1G9.jpg`
