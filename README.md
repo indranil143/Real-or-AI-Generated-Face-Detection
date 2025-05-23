@@ -72,12 +72,12 @@ Visualizations provide further insight into the model's performance. Include the
 
 * **Overall Confusion Matrix:** Shows the counts of True Positives, True Negatives, False Positives, and False Negatives based on pooled predictions.
     <p align="center">
-    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="400"/>
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="350"/>
     </p>
 
 * **Overall ROC Curve:** Illustrates the model's ability to discriminate between classes across different thresholds.
     <p align="center">
-    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall Confusion Matrix" height= "400", width="700"/>
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall Confusion Matrix" height= "400", width="500"/>
     </p>
 
 **Prediction Examples:**
@@ -100,18 +100,14 @@ Visualizations provide further insight into the model's performance. Include the
 
 This section details an earlier project exploring a custom-built Convolutional Neural Network (CNN) for the same real vs. AI-generated face classification task. This serves as a comparison to the more advanced transfer learning approach with Xception. The implementation for this approach is found in the notebook `Real vs. AI-Generated Face Classification model.ipynb`.
 
-### Approach
-
 This project's core is a custom Convolutional Neural Network architecture designed for binary image classification.
 
-### Model
-
-The model utilizes a standard CNN architecture for efficient feature extraction and classification of real and AI-generated faces.
-
 ### Model Summary:
-* **Input Shape**: The model is designed to accept images with an input shape of **(256, 256, 3)**, corresponding to RGB images resized to 256x256 pixels.
+* **Input Shape**: The model is designed to accept images with an input shape of **(256, 256, 3)**,
+  corresponding to RGB images resized to 256x256 pixels.
 * **Conv2D Layers**: Multiple convolutional layers are used to automatically learn hierarchical spatial features from the input images.
-* **MaxPooling2D Layers**: These layers are interleaved with convolutional layers to reduce the spatial dimensions of the feature maps, helping to manage computational complexity and provide a degree of translational invariance.
+* **MaxPooling2D Layers**: These layers are interleaved with convolutional layers to reduce the spatial dimensions of the feature maps,
+  helping to manage computational complexity and provide a degree of translational invariance.
 * **Flatten Layer**: Converts the final 2D feature maps into a 1D vector, preparing the data for the fully connected dense layers.
 * **Dense Layers**: Fully connected layers process the high-level features extracted by the convolutional and pooling layers to perform the final classification.
 * **Activation Functions**:
@@ -162,7 +158,7 @@ To set up the projects locally:
 
 Feel free to contribute to this project by opening issues or submitting pull requests!!
 
-## ⚖️ License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
