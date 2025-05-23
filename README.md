@@ -23,9 +23,9 @@ The solution employs a robust deep learning workflow for training and evaluating
 3.  **Model Architecture:** Utilizes the **Xception** convolutional neural network (pre-trained on ImageNet) as a base, with its top layer removed. A custom binary classification head is added, including Global Average Pooling, **Dense layers with L2 regularization (0.0001)** and **Dropout (rate 0.3)**, Batch Normalization, and a final `sigmoid` output layer.
 4.  **Two-Phase Training Strategy:** Training is conducted in two phases using the Adam optimizer:
     * **Phase 1:** Train the custom head with the Xception base **frozen** for **20 epochs** with an **initial learning rate of 0.001**.
-    * Early Stopping (patience 10) and ReduceLROnPlateau (patience 4) callbacks are used.
+    Early Stopping (patience 10) and ReduceLROnPlateau (patience 4) callbacks are used.
     * **Phase 2:** **Fine-tune** the entire model (unfreeze Xception base) for an **additional 30 epochs** with a **lower learning rate of 1e-5**,
-    * Updated callback patience (Early Stopping 15, ReduceLROnPlateau 7) are used.
+    Updated callback patience (Early Stopping 15, ReduceLROnPlateau 7) are used.
 5.  **K-Fold Cross-Validation:** **5-Fold Cross-Validation** (`SEED = 42`) is implemented to train and evaluate the model 5 times on different data splits, providing a more robust performance estimate.
    Model checkpoints are saved for each fold.
 7.  **Evaluation:** Performance is rigorously evaluated using key metrics like Accuracy, Precision, Recall, F1-Score, and AUC. **Classification Reports** and **Confusion Matrices** are generated from pooled predictions across all folds.
