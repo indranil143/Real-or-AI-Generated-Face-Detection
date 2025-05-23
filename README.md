@@ -2,10 +2,9 @@
 ## (Real-or-AI-Generated-Face-Detection) 
 
 ## 📌Project Overview
-AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭   
+AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭 
+In the era of increasingly realistic synthetic media, being able to accurately identify AI-generated content is becoming vital for combating misinformation and maintaining digital trust. 
 This repository showcases approaches to classifying facial images as either real or AI-generated (deepfake). The primary focus is on a robust deep learning model utilizing transfer learning with the powerful Xception network and K-Fold cross-validation. An alternative approach using a custom Convolutional Neural Network is also documented.
-
-In the era of increasingly realistic synthetic media, being able to accurately identify AI-generated content is becoming vital for combating misinformation and maintaining digital trust. This project aims to contribute to this effort by providing model implementations for this task.
 
 ## 👤 Problem Statement
 
@@ -17,21 +16,21 @@ The primary and more advanced approach implemented in this repository utilizes a
 
 ### Approach Details
 
-The solution employs a deep learning approach with a focus on robust training and evaluation, implemented in the accompanying Jupyter Notebook (`Deepfake-Face-Detection-with-Xception.ipynb`):
-
-### Approach Details
-
 The solution employs a robust deep learning workflow for training and evaluating the model, implemented in the accompanying Jupyter Notebook (`Deepfake-Face-Detection-with-Xception.ipynb`):
 
 1.  **Data Loading & Preprocessing:** Images are loaded from 'real' and 'fake' directories, resized to **(224, 224) pixels**, normalized (0-1 range), and labeled for binary classification, with basic error handling.
 2.  **Data Augmentation:** On-the-fly data augmentation is applied during training, including horizontal flips, brightness, contrast, saturation, and hue adjustments, to improve generalization.
 3.  **Model Architecture:** Utilizes the **Xception** convolutional neural network (pre-trained on ImageNet) as a base, with its top layer removed. A custom binary classification head is added, including Global Average Pooling, **Dense layers with L2 regularization (0.0001)** and **Dropout (rate 0.3)**, Batch Normalization, and a final `sigmoid` output layer.
 4.  **Two-Phase Training Strategy:** Training is conducted in two phases using the Adam optimizer:
-    * **Phase 1:** Train the custom head with the Xception base **frozen** for **20 epochs** with an **initial learning rate of 0.001**. Early Stopping (patience 10) and ReduceLROnPlateau (patience 4) callbacks are used.
-    * **Phase 2:** **Fine-tune** the entire model (unfreeze Xception base) for an **additional 30 epochs** with a **lower learning rate of 1e-5**, using updated callback patience (Early Stopping 15, ReduceLROnPlateau 7).
-5.  **K-Fold Cross-Validation:** **5-Fold Cross-Validation** (`SEED = 42`) is implemented to train and evaluate the model 5 times on different data splits, providing a more robust performance estimate. Model checkpoints are saved for each fold.
-6.  **Evaluation:** Performance is rigorously evaluated using key metrics like Accuracy, Precision, Recall, F1-Score, and AUC. **Classification Reports** and **Confusion Matrices** are generated from pooled predictions across all folds. **Training History Plots** and **ROC Curves** are also visualized.
-7.  **Prediction:** Includes functionality to load saved models (`.keras` file) and make predictions on new images or an entire directory of images, using a **0.5 probability threshold** to determine the final class.
+    * **Phase 1:** Train the custom head with the Xception base **frozen** for **20 epochs** with an **initial learning rate of 0.001**.
+    * Early Stopping (patience 10) and ReduceLROnPlateau (patience 4) callbacks are used.
+    * **Phase 2:** **Fine-tune** the entire model (unfreeze Xception base) for an **additional 30 epochs** with a **lower learning rate of 1e-5**,
+    * Updated callback patience (Early Stopping 15, ReduceLROnPlateau 7) are used.
+5.  **K-Fold Cross-Validation:** **5-Fold Cross-Validation** (`SEED = 42`) is implemented to train and evaluate the model 5 times on different data splits, providing a more robust performance estimate.
+   Model checkpoints are saved for each fold.
+7.  **Evaluation:** Performance is rigorously evaluated using key metrics like Accuracy, Precision, Recall, F1-Score, and AUC. **Classification Reports** and **Confusion Matrices** are generated from pooled predictions across all folds.
+   **Training History Plots** and **ROC Curves** are also visualized.
+9.  **Prediction:** Includes functionality to load saved models (`.keras` file) and make predictions on new images or an entire directory of images, using a **0.5 probability threshold** to determine the final class.
 
 ## 🗂️ Dataset
 
