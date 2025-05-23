@@ -2,9 +2,10 @@
 ## (Real-or-AI-Generated-Face-Detection) 
 
 ## 📌Project Overview
-AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭 
+AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭  
 In the era of increasingly realistic synthetic media, being able to accurately identify AI-generated content is becoming vital for combating misinformation and maintaining digital trust. 
-This repository showcases approaches to classifying facial images as either real or AI-generated (deepfake). The primary focus is on a robust deep learning model utilizing transfer learning with the powerful Xception network and K-Fold cross-validation. An alternative approach using a custom Convolutional Neural Network is also documented.
+This repository showcases approaches to classifying facial images as either real or AI-generated (deepfake). 
+The primary focus is on a robust deep learning model utilizing transfer learning with the powerful Xception network and K-Fold cross-validation. An alternative approach using a custom Convolutional Neural Network is also documented.
 
 ## 👤 Problem Statement
 
