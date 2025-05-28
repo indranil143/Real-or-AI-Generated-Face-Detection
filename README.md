@@ -97,7 +97,7 @@ Visualizations provide further insight into the model's performance. Include the
 
 ---
 
-## 🔄 Alternative Approach: Custom CNN Model
+## 🔄 Alternative Approach: Custom CNN Model (the old project)
 
 This section details an earlier project exploring a custom-built Convolutional Neural Network (CNN) for the same real vs. AI-generated face classification task. This serves as a comparison to the more advanced transfer learning approach with Xception. The implementation for this approach is found in the notebook `Real vs. AI-Generated Face Classification model.ipynb`.
 
