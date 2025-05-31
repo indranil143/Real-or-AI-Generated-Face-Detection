@@ -57,15 +57,13 @@ Based on 5-Fold Cross-Validation on the RVF10K dataset:
 
 **Prediction Examples:**
 
-* **Example 1:**
-    <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" height="500" width="1200"/></p>
+* **Example 1:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" height="800" width="1200"/></p>
     * **Filename:** `0M0F4YJ1G9.jpg`
     * **Prediction:** Fake
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
-* **Example 2:**
-    <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction" height="500" width="1300"/></p>
+* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction" height="800" width="1300"/> </p>
     * **Filename:** `00292.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
