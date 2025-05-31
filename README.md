@@ -50,33 +50,33 @@ Based on 5-Fold Cross-Validation on the RVF10K dataset:
 | Weighted Avg | 0.78      | 0.78   | 0.78     | 7000    |
 </div>
 
-**Evaluation Plots:**
-
-* **Overall Confusion Matrix:** (Based on pooled predictions)
-    <p align="center">
-    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194747.png" alt="Overall Confusion Matrix" width="350"/>
-    </p>
-
 * **Overall ROC Curve:**
     <p align="center">
-    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall ROC Curve" height="400" width="500"/>
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall ROC Curve" height="400" width="600"/>
     </p>
 
 **Prediction Examples:**
 
 * **Example 1:**
-    <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" width="1200"/></p>
+    <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" height="500" width="1200"/></p>
     * **Filename:** `0M0F4YJ1G9.jpg`
     * **Prediction:** Fake
     * **Probability (Fake):** 0.9294
+    * *Comment:* A correct prediction with high confidence that the image is Fake.
 
+* **Example 2:**
+    <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction" height="500" width="1300"/></p>
+    * **Filename:** `00292.jpg`
+    * **Prediction:** Real
+    * **Probability (Fake):** 0.0561
+    * *Comment:* A correct prediction with high confidence that the image is Real.
 ---
 
 ## 🔄 Alternative Approach: Custom CNN Model (the old project)
 An earlier project detailed in `Real vs. AI-Generated Face Classification model.ipynb` explored a custom CNN:
 * **Architecture:** Input **(256, 256, 3)**, multiple Conv2D & MaxPooling2D layers, Flatten, Dense layers with ReLU, and a Sigmoid output.
 * **Training:** Adam optimizer, Binary Crossentropy loss.
-* **Dataset:** Custom collected real and GAN-generated faces (or build your own, e.g., using browser extensions to scrape images).
+* **Dataset:** Custom collected real and GAN-generated faces ( 💡or build your own, e.g., using browser extensions to scrape images).
 * **Result Example:**
     ![Example Result](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot_example_result%20(1).jpeg)
     *Achieved high accuracy on its specific training set; generalization benefits from techniques like dropout and data augmentation.*
