@@ -1,7 +1,7 @@
 # Deepfake Face Detection using Deep Learning 🤖👤
 **(Real-or-AI-Generated-Face-Detection)**
 
-[![Python](https://img.shields.io/badge/Language-Python-3.10-blue?style=flat-square&logo=python)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Language-Python-3.10-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Deep Learning](https://img.shields.io/badge/Concept-Deep%20Learning-purple?style=flat-square)](https://en.wikipedia.org/wiki/Deep_learning)
 [![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow%20%7C%20Keras-red?style=flat-square&logo=tensorflow)](https://www.tensorflow.org/)
 [![NumPy](https://img.shields.io/badge/Data%20Handling-NumPy-informational?style=flat-square&logo=numpy)](https://numpy.org/)
