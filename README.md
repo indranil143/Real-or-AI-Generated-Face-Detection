@@ -1,6 +1,17 @@
 # Deepfake Face Detection using Deep Learning 🤖👤
 **(Real-or-AI-Generated-Face-Detection)**
 
+[![Python](https://img.shields.io/badge/Language-Python-3.10-blue?style=flat-square&logo=python)](https://www.python.org/)
+[![Deep Learning](https://img.shields.io/badge/Concept-Deep%20Learning-purple?style=flat-square)](https://en.wikipedia.org/wiki/Deep_learning)
+[![TensorFlow](https://img.shields.io/badge/Framework-TensorFlow%20%7C%20Keras-red?style=flat-square&logo=tensorflow)](https://www.tensorflow.org/)
+[![NumPy](https://img.shields.io/badge/Data%20Handling-NumPy-informational?style=flat-square&logo=numpy)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Plotting-Matplotlib-lightgrey?style=flat-square&logo=matplotlib)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-blueviolet?style=flat-square&logo=seaborn)](https://seaborn.pydata.org/)
+[![Scikit-learn](https://img.shields.io/badge/ML%20Tools-Scikit--learn-orange?style=flat-square&logo=scikit-learn)](https://scikit-learn.org/stable/)
+[![OpenCV](https://img.shields.io/badge/Image%20Processing-OpenCV-darkgreen?style=flat-square&logo=opencv)](https://opencv.org/)
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange?style=flat-square&logo=jupyter)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 ## 📌 Project Overview
 AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭  
 This project addresses the critical need to detect AI-generated facial images (deepfakes) to combat misinformation. It showcases a primary approach using the **Xception network with transfer learning and K-Fold cross-validation**, and an alternative custom Convolutional Neural Network (CNN).
