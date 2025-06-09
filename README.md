@@ -65,8 +65,40 @@ Based on 5-Fold Cross-Validation on the RVF10K dataset:
 
 * **Overall ROC Curve:**
     <p align="center">
-    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall ROC Curve" height="400" width="600"/>
+    <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20194855.png" alt="Overall ROC Curve" height="300" width="500"/>
     </p>
+
+### **Prediction Examples:**
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>Example 1:</h4>
+      <ul>
+        <li><b>Filename:</b> <code>0M0F4YJ1G9.jpg</code></li>
+        <li><b>Prediction:</b> Fake</li>
+        <li><b>Probability (Fake):</b> 0.9294</li>
+        <li><i>Comment:</i> A correct prediction with high confidence that the image is Fake.</li>
+      </ul>
+      <p align="center">
+        <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" width="100%"/>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>Example 2:</h4>
+      <ul>
+        <li><b>Filename:</b> <code>00292.jpg</code></li>
+        <li><b>Prediction:</b> Real</li>
+        <li><b>Probability (Fake):</b> 0.0561</li>
+        <li><i>Comment:</i> A correct prediction with high confidence that the image is Real.</li>
+      </ul>
+      <p align="center">
+        <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction" width="100%"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
 
 **Prediction Examples:**
 
