@@ -9,6 +9,8 @@
 [![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-blueviolet?style=flat-square&logo=seaborn)](https://seaborn.pydata.org/)
 [![Scikit-learn](https://img.shields.io/badge/ML%20Tools-Scikit--learn-orange?style=flat-square&logo=scikit-learn)](https://scikit-learn.org/stable/)
 [![OpenCV](https://img.shields.io/badge/Image%20Processing-OpenCV-darkgreen?style=flat-square&logo=opencv)](https://opencv.org/)
+[![Model: Xception](https://img.shields.io/badge/Model-Xception-orange?style=flat-square)](https://keras.io/api/applications/xception/)
+[![Evaluation: K-Fold CV](https://img.shields.io/badge/Evaluation-K--Fold%20CV-yellowgreen?style=flat-square)](https://scikit-learn.org/stable/modules/cross_validation.html)
 [![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange?style=flat-square&logo=jupyter)](https://jupyter.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
