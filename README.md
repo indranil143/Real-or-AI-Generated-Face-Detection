@@ -81,7 +81,7 @@ Based on 5-Fold Cross-Validation on the RVF10K dataset:
         <li><i>Comment:</i> A correct prediction with high confidence that the image is Fake.</li>
       </ul>
       <p align="center">
-        <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" width="100%"/>
+        <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" width="98%"/>
       </p>
     </td>
     <td width="50%" valign="top">
