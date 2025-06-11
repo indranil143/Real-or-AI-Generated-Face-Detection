@@ -16,11 +16,11 @@
 
 ## 📌 Project Overview
 AI-generated images are now almost everywhere, making it crucial to detect them before misinformation spreads or you get catfished!! 🎭  
-There are critical need to detect AI-generated facial images (deepfakes) to combat misinformation. This repository showcases a primary approach using the **Xception network with transfer learning and K-Fold cross-validation**, and an alternative custom Convolutional Neural Network (CNN).
+There is a critical need to reliably detect AI-generated facial images (deepfakes) to mitigate these risks. This repository showcases a robust primary approach utilizing the **Xception network with transfer learning and K-Fold cross-validation**, alongside an alternative approach using custom Convolutional Neural Network (CNN).
 
 ## 👤 Problem Statement
-The increasing realism of GAN-generated faces makes it hard to distinguish them from real ones, posing threats like disinformation and reputational damage.  
-So, We developed deep learning models to identify AI-generated faces!
+The increasing realism of GAN-generated faces makes it hard to distinguish them from real ones, posing significant threats such as the proliferation of disinformation and potential reputational damage.
+Therefore, we have developed advanced deep learning models specifically designed to identify AI-generated faces!
 
 ## 🚀 Main Approach: Xception-based Transfer Learning with K-Fold CV
 The core solution, detailed in `Deepfake-Face-Detection-with-Xception.ipynb`, employs:
@@ -77,24 +77,12 @@ Based on 5-Fold Cross-Validation on the RVF10K dataset:
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
-* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Example%20(2).png" alt="Example 2 Prediction" width="600"/> </p>
+* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Example%20(2).png" alt="Example 2 Prediction" width="601"/> </p>
     * **Filename:** `46915.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
     * *Comment:* A correct prediction with high confidence that the image is Real.
 
-
-* **Example 1:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195030.png" alt="Example 1 Prediction" width="1200"/></p>
-    * **Filename:** `0M0F4YJ1G9.jpg`
-    * **Prediction:** Fake
-    * **Probability (Fake):** 0.9294
-    * *Comment:* A correct prediction with high confidence that the image is Fake.
-
-* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot%202025-05-14%20195118.png" alt="Example 2 Prediction" width="1300"/> </p>
-    * **Filename:** `00292.jpg`
-    * **Prediction:** Real
-    * **Probability (Fake):** 0.0561
-    * *Comment:* A correct prediction with high confidence that the image is Real.
 ---
 
 ## 🔄 Alternative Approach: Custom CNN Model (the old project)
