@@ -77,7 +77,7 @@ Based on 5-Fold Cross-Validation on the RVF10K dataset:
     * **Probability (Fake):** 0.9294
     * *Comment:* A correct prediction with high confidence that the image is Fake.
 
-* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Example%20(2).png" alt="Example 2 Prediction" width="650"/> </p>
+* **Example 2:** <p align="center"> <img src="https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Example%20(2).png" alt="Example 2 Prediction" width="600"/> </p>
     * **Filename:** `46915.jpg`
     * **Prediction:** Real
     * **Probability (Fake):** 0.0561
