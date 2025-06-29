@@ -85,19 +85,9 @@ Based on 5-Fold Cross-Validation on the RVF10K dataset:
 
 ---
 
-## 🔄 Alternative Approach: Custom CNN Model (the old project)
-An earlier project detailed in `Real vs. AI-Generated Face Classification model.ipynb` explored a custom CNN:
-* **Architecture:** Input **(256, 256, 3)**, multiple Conv2D & MaxPooling2D layers, Flatten, Dense layers with ReLU, and a Sigmoid output.
-* **Training:** Adam optimizer, Binary Crossentropy loss.
-* **Dataset:** Custom collected real and GAN-generated faces (or,💡build your own, e.g., using browser extensions to scrape images).
-* **Result Example:**
-    ![Example Result](https://github.com/indranil143/Real-or-AI-Generated-Face-Detection/blob/main/SS/Screenshot_example_result%20(1).jpeg)
-    *Achieved high accuracy on its specific training set; generalization benefits from techniques like dropout and data augmentation.*
-
----
 
 ## 🛠️ Setup and Installation
-1.  **Dependencies:** Install Python (3.x), TensorFlow, NumPy, Matplotlib, Seaborn, Scikit-learn, OpenCV.
+1.  **Dependencies:** Install Python (3.10+), TensorFlow, NumPy, Matplotlib, Seaborn, Scikit-learn, OpenCV.
 2.  **Datasets:**
     * Obtain RVF10K and update the path in `Deepfake-Face-Detection-with-Xception.ipynb`.
     * For the custom CNN, prepare your dataset (e.g., in an `imagedata` directory) or use your own and update the path in `Real vs. AI-Generated Face Classification model.ipynb`.
