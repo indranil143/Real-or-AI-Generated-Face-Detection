@@ -3,7 +3,7 @@
 
 ---
 
-# 🔄 Alternative Approach: Custom CNN Model (the old project)
+# 🔄 Alternative Approach: Custom CNN Model 
 An earlier project detailed in `Real vs. AI-Generated Face Classification model.ipynb` explored a custom CNN:
 * **Architecture:** Input **(256, 256, 3)**, multiple Conv2D & MaxPooling2D layers, Flatten, Dense layers with ReLU, and a Sigmoid output.
 * **Training:** Adam optimizer, Binary Crossentropy loss.
